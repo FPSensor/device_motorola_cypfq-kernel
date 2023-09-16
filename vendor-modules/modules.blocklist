@@ -99,9 +99,11 @@ blocklist moto_f_usbnet
 # Motorola product module block list
 #
 
-blocklist fpsensor_spi_tee
+blocklist rbs_fps_mmi
 blocklist goodix_fod_mmi
 blocklist fpc1020_mmi
 blocklist mmi_smbcharger_iio
 blocklist qpnp_adaptive_charge
-blocklist mmi_parallel_charger_iio.ko
+blocklist mmi_sc8549.ko
+blocklist ili9882_mmi
+blocklist gcore_mmi

@@ -1,6 +1,4 @@
 # Aliases extracted from modules themselves.
-alias of:N*T*Cfocaltech,fts focaltech_v2_mmi
-alias of:N*T*Cfocaltech,ftsC* focaltech_v2_mmi
 alias platform:mmi_relay mmi_relay
 alias of:N*T*Cmmi,sys-relay mmi_relay
 alias of:N*T*Cmmi,sys-relayC* mmi_relay
@@ -53,13 +51,6 @@ alias of:N*T*Cqcom,msm-voip-dspC* platform_dlkm
 alias of:N*T*Cqcom,msm-transcode-loopback platform_dlkm
 alias of:N*T*Cqcom,msm-transcode-loopbackC* platform_dlkm
 alias platform:swr-mstr swr_ctrl_dlkm
-alias of:N*T*Csc,sc8549-standalone mmi_sc8549
-alias of:N*T*Csc,sc8549-standaloneC* mmi_sc8549
-alias i2c:sc8549-standalone mmi_sc8549
-alias i2c:wl2866d wl2866d
-alias platform:mmi parallel charger mmi_parallel_charger_iio
-alias of:N*T*Cmmi,chrg-manager mmi_parallel_charger_iio
-alias of:N*T*Cmmi,chrg-managerC* mmi_parallel_charger_iio
 alias of:N*T*Cqcom,cam-req-mgr camera
 alias of:N*T*Cqcom,cam-req-mgrC* camera
 alias of:N*T*Cqcom,cam-sync camera
@@ -168,24 +159,6 @@ alias of:N*T*Cqcom,wsa881x-i2c-codecC* wsa881x_analog_dlkm
 alias i2c:aw882xx_smartpa aw882xx_k419
 alias of:N*T*Cfpc,fpc1020 fpc1020_mmi
 alias of:N*T*Cfpc,fpc1020C* fpc1020_mmi
-alias of:N*T*Cgoodix,gt9885 goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt9885C* goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt9896 goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt9896C* goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt9886 goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt9886C* goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt9889 goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt9889C* goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt8589 goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt8589C* goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt5863 goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt5863C* goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt6861 goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt6861C* goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt6862 goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt6862C* goodix_v1510_mmi
-alias i2c:gtx8 goodix_v1510_mmi
-alias platform:goodix_ts goodix_v1510_mmi
 alias platform:holi-asoc-snd machine_dlkm
 alias of:N*T*Cqcom,holi-asoc-snd machine_dlkm
 alias of:N*T*Cqcom,holi-asoc-sndC* machine_dlkm

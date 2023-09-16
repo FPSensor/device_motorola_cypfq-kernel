@@ -34,8 +34,6 @@ alias of:N*T*Cqcom,msm-eud eud
 alias of:N*T*Cqcom,msm-eudC* eud
 alias of:N*T*Cqcom,holi-dispcc dispcc_holi
 alias of:N*T*Cqcom,holi-dispccC* dispcc_holi
-alias of:N*T*Cfocaltech,fts focaltech_v2_mmi
-alias of:N*T*Cfocaltech,ftsC* focaltech_v2_mmi
 alias touchkitusb usbtouchscreen
 alias itmtouch usbtouchscreen
 alias mtouchusb usbtouchscreen
@@ -190,10 +188,8 @@ alias of:N*T*Cqcom,usb-ssphy-qmp-usb3-or-dp phy_msm_ssusb_qmp
 alias of:N*T*Cqcom,usb-ssphy-qmp-usb3-or-dpC* phy_msm_ssusb_qmp
 alias of:N*T*Cqcom,kgsl-3d0 msm_kgsl
 alias of:N*T*Cqcom,kgsl-3d0C* msm_kgsl
-alias of:N*T*Csc,sc8549-standalone mmi_sc8549
-alias of:N*T*Csc,sc8549-standaloneC* mmi_sc8549
-alias i2c:sc8549-standalone mmi_sc8549
-alias i2c:wl2866d wl2866d
+alias of:N*T*Cfocaltech,fts_ts focaltech_fts
+alias of:N*T*Cfocaltech,fts_tsC* focaltech_fts
 alias of:N*T*Cqcom,blair-dispcc dispcc_blair
 alias of:N*T*Cqcom,blair-dispccC* dispcc_blair
 alias of:N*T*Cqcom,msm-cdsprm-rpmsg cdsprm
@@ -213,9 +209,6 @@ alias of:N*T*Cqcom,qcedev qcedev_mod
 alias of:N*T*Cqcom,qcedevC* qcedev_mod
 alias of:N*T*Cqcom,qcedev,context-bank qcedev_mod
 alias of:N*T*Cqcom,qcedev,context-bankC* qcedev_mod
-alias platform:mmi parallel charger mmi_parallel_charger_iio
-alias of:N*T*Cmmi,chrg-manager mmi_parallel_charger_iio
-alias of:N*T*Cmmi,chrg-managerC* mmi_parallel_charger_iio
 alias of:N*T*Cqcom,msm-fastrpc-rpmsg frpc_adsprpc
 alias of:N*T*Cqcom,msm-fastrpc-rpmsgC* frpc_adsprpc
 alias of:N*T*Cqcom,cam-req-mgr camera
@@ -476,24 +469,6 @@ alias of:N*T*Cqcom,pm5100-rtc rtc_pm8xxx
 alias of:N*T*Cqcom,pm5100-rtcC* rtc_pm8xxx
 alias of:N*T*Cqcom,dwc-usb3-msm dwc3_msm
 alias of:N*T*Cqcom,dwc-usb3-msmC* dwc3_msm
-alias of:N*T*Cgoodix,gt9885 goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt9885C* goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt9896 goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt9896C* goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt9886 goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt9886C* goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt9889 goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt9889C* goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt8589 goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt8589C* goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt5863 goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt5863C* goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt6861 goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt6861C* goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt6862 goodix_v1510_mmi
-alias of:N*T*Cgoodix,gt6862C* goodix_v1510_mmi
-alias i2c:gtx8 goodix_v1510_mmi
-alias platform:goodix_ts goodix_v1510_mmi
 alias pci:v*d*sv*sd*bc0Csc03i30* xhci_pci
 alias of:N*T*Cqcom,cdsp-loader cdsp_loader
 alias of:N*T*Cqcom,cdsp-loaderC* cdsp_loader
